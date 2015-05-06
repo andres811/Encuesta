@@ -19,14 +19,14 @@ if ($action === "vote") {
                 echo "<a href='index.php' value='Volver al inicio'>";
             } else {
                 echo "Error voto";
-                echo "<a href='index.php' value='Volver al inicio'>";
+                echo "<br><a href='index.php'>Volver al inicio</a>";
             }
         } else {
             echo "Ya voto";
-            echo "<a href='index.php' value='Volver al inicio'>";
+            echo "<br><a href='index.php'>Volver al inicio</a>";
         }
     } else {
         echo "Error datos";
-        echo "<a href='index.php' value='Volver al inicio'>";
+        echo "<br><a href='index.php'>Volver al inicio</a>";
     }
 }
